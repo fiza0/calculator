@@ -1,0 +1,37 @@
+.container {
+    background: lightgrey;
+    width: max-content;
+    margin:auto;
+    height:75vh;
+    display:flex;
+    flex-direction: column;
+}
+.display{
+    width:100%;
+    background-color: darkgrey;
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-end;
+    flex:1;
+}
+.buttons{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex:4
+}
+button{
+    flex: 1 25%;
+}
+.btn-number {
+    background-color: grey;
+}
+.btn-operator{
+    background-color:orange;
+}
+.btn-equals{
+    background-color: green;
+}
+.btn-clear{
+    background-color: crimson;
+}
