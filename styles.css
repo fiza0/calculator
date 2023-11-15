@@ -1,37 +1,34 @@
 .container {
-    background: lightgrey;
-    width: max-content;
-    margin:auto;
-    height:75vh;
     display:flex;
+    width: 400px;
+    height:75vh;
+    border:5px solid black;
+    border-radius: 5px;
     flex-direction: column;
+    margin: auto;
 }
-.display{
-    width:100%;
-    background-color: darkgrey;
-    font-size: 48px;
-    display: flex;
+.display {
+    display:flex;
     justify-content: flex-end;
     flex:1;
+    font-size: 50px;
+    background-color: beige;
 }
-.buttons{
-    max-width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    flex:4
+.buttons {
+    display:flex;
+    flex-wrap:wrap;
+    flex:4;
 }
+
 button{
-    flex: 1 25%;
+    background-color: burlywood;
+    flex:1 25%;
 }
-.btn-number {
-    background-color: grey;
-}
+
+.btn-clear,
 .btn-operator{
-    background-color:orange;
+    background-color: orange;
 }
 .btn-equals{
-    background-color: green;
-}
-.btn-clear{
-    background-color: crimson;
+    background-color: lightgreen;
 }
